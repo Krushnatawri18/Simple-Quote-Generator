@@ -5,26 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Let's Quote</title>
-    <link href="css/style.css" rel="stylesheet">
-    <!-- <script src="js/javascript.js"></script> -->
-    <!-- <link rel="stylesheet" > -->
+    <title>Random Quote Generator</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
+    <hr>
     <h1>
-        <center>Simple Quote Generator</center>
+        Random Quote Generator
     </h1>
-    <div id="quoteDisplay">
+    <div class="container">
+        <button type="button" class="button" onclick="newQuote()" onclick="success()">Generate
+            Quote</button>
+        <div id="quoteDisplay">
+        </div>
     </div>
 
-    <script src="js/javascript.js">
+    <script src="js/script.js">
         document.getElementById('quoteDisplay'); 
     </script>
-
-    <center><button type="button" class="button" onclick="newQuote()" onclick="success()" onmouseover="message()">New
-            Quote</button></center>
-
 
 </body>
 
