@@ -3,19 +3,6 @@ body {
     padding-top: 20px;
 }
 
-hr{
-    width: 40%;
-    text-align: center;
-    height: 6px;
-    border-color: white;
-    background-color: rgb(0, 183, 255);
-}
-
-h1{
-    color: rgb(28, 113, 43);
-    text-align: center;
-}
-
 .container{
     display: flex;
     flex-direction: column;
@@ -23,7 +10,27 @@ h1{
     justify-content: center;
 }
 
-.button {
+hr{
+    width: 60%;
+    text-align: center;
+    height: 6px;
+    border-color: white;
+    background-color: rgb(0, 183, 255);
+}
+
+h1{
+    color: rgb(40, 66, 158);
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
     background-color: #5594fa;
     color: #fff;
     border: none;
@@ -38,7 +45,7 @@ h1{
     font-size: 15px;
 }
 
-.button:hover {
+button:hover {
     transition: 0.7s;
 }
 
